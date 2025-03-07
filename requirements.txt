@@ -1,0 +1,10 @@
+# Core dependencies
+anthropic>=0.8.0
+python-dotenv>=1.0.0; python_version >= "3.8"
+requests>=2.25.0
+
+# Optional utilities for improved experience
+rich>=10.0.0  # For pretty terminal output
+
+# Platform-specific dependencies
+windows-curses; sys_platform == "win32"  # For Windows users
